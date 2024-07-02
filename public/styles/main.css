@@ -14,11 +14,40 @@ main {
   text-align: center;
   flex: 1 0 auto;
 }
+
 h1 {
   color: #fff;
   padding: 10px;
 }
 
+h1 button {
+  padding: 100px;
+}
+
+.home{
+  padding-top: 120px;
+}
+
+.homeBtn {
+  background-color: #a683e3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+  font-family: "helvetica neue";
+}
+
+.homeBtn h2 {
+  margin: 0;
+}
+
+.homeBtn:hover {
+  background-color: rgba(255, 160, 219, 0.3);
+}
 .box {
   max-width: 400px;
   margin: 50px auto;
